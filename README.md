@@ -1,4 +1,21 @@
-# 基于Django的网络安全事件应急响应与处置系统
+# PyMonitorSystem 基于Django的网络安全事件应急响应与处置系统
+
+SystemMonitor
+
+系统监控工具，使用Python Django开发完成
+
+系统服务监控系统
+
+安装依赖
+```
+pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+```
+
+运行项目
+
+```
+python manage.py runserver --insecure localhost:8080
+```
 
 #### 介绍
 
